@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Dan Hauer"
+    }
+  ],
+
+  "posts": [
+    {
+      "id": 1,
+      "title": "What's New in Next.js 13",
+      "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--q4zzblBv--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p35aotcqc6lz0h1dwkoh.png",
+      "comments": [],
+      "userId": 1
+    }
+  ]
+}
