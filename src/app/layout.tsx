@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` flex flex-col min-h-[100vh] bg-gray-100 ${inter.className}`}
+        className={` flex flex-col min-h-screen bg-gray-100 ${inter.className}`}
       >
         <Header />
         <div className="container mx-auto grow">{children}</div>

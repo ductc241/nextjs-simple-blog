@@ -1,4 +1,5 @@
 import PostCard from "@/components/PostCard";
+import Link from "next/link";
 
 async function getUsersData() {
   const data = await fetch(
@@ -8,7 +9,7 @@ async function getUsersData() {
     }
   );
 
-  await new Promise((resolve) => setTimeout(resolve, 1000));
+  await new Promise((resolve) => setTimeout(resolve, 500));
   return data.json();
 }
 
@@ -23,7 +24,7 @@ export default async function Home({
     <main className="container mx-auto">
       <div className="grid grid-cols-12 gap-5">
         {data.map((post: any) => (
-          <div className="col-span-6" key={post.id}>
+          <div className="col-span-12 lg:col-span-6" key={post.id}>
             <PostCard />
           </div>
         ))}
